@@ -29,9 +29,9 @@ export default function Slider() {
         modules={[Mousewheel, Pagination]}
         className="mySwiper max-h-[400px]"
       >
-        <SwiperSlide><img className='rounded-2xl' src={fristimg} alt="" /></SwiperSlide>
-        <SwiperSlide><img className='rounded-2xl' src={second} alt="" /></SwiperSlide>
-        <SwiperSlide><img className='rounded-2xl' src={third} alt="" /></SwiperSlide>
+        <SwiperSlide><img className='rounded-4xl ' src={fristimg} alt="" /></SwiperSlide>
+        <SwiperSlide><img className='rounded-4xl ' src={second} alt="" /></SwiperSlide>
+        <SwiperSlide><img className='rounded-4xl ' src={third} alt="" /></SwiperSlide>
          
       </Swiper>
     </>
